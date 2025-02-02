@@ -5,7 +5,8 @@ from sklearn.metrics import classification_report, accuracy_score
 from xgboost import XGBClassifier
 
 # Extract data
-dataset = pd.read_csv("/Users/williamvm/Documents/Projects/Fraud Detection/creditcard.csv")
+# If you want to try using the model, this is the URL https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?resource=download
+dataset = pd.read_csv("filepath")
 
 # Check for missing values
 # print(dataset.isnull().sum()) 
